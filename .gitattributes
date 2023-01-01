@@ -1,0 +1,4 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+MODEL[[:space:]]DEPLOYMENT/flowers-recognition.zip filter=lfs diff=lfs merge=lfs -text
+MODEL[[:space:]]DEPLOYMENT/*.zip filter=lfs diff=lfs merge=lfs -text
+flowers-recognition.zip filter=lfs diff=lfs merge=lfs -text
